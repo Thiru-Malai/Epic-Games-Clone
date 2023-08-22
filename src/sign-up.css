@@ -1,0 +1,33 @@
+.sign-up{
+    background-color: rgba(18,18,18,255);
+    color: white;
+    padding: 10px;
+}
+
+.register{
+    color: white;
+    font-size: xx-large;
+    margin: 20px;
+}
+
+.submission-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+input{
+    text-decoration: none;
+    border-radius: 4px;
+    border: 0px;
+}
+
+button{
+    margin: 4px;
+    color: white;
+    background-color: rgb(56, 55, 55);
+    border: 0px;
+    border-radius: 4px;
+    width: 100px;
+    height: 30px;
+}

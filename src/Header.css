@@ -1,0 +1,42 @@
+.Header{
+    height: fit-content;
+    color: white;
+    width: 100%;
+}
+
+.header-container{
+    background-color: rgba(18,18,18,255);
+    margin: 0px;
+}
+
+.container{
+    margin: 0px;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 1;
+    grid-template-columns: 80px 60px 60px 3fr 120px 10px 120px;
+    align-items: center;
+    color: white;
+}
+
+a{
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.download{
+    background-color: rgba(1,121,242,255);
+    text-align: center;
+    height: 80%;
+    border: 0px;
+    color: white;
+    border-radius: 12px;
+}
+
+.sign-up{
+    background-color: rgba(18,18,18,255);
+    color: white;
+    border-radius: 12px ;
+    height: 80%;
+}

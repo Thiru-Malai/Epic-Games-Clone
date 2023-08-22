@@ -1,0 +1,33 @@
+.store-page{
+    background-color: rgba(18,18,18,255);
+    color: white;
+    padding: 10px;
+}
+
+
+.contents-container{
+    text-align: start;
+    height: 100%;
+}
+
+.discover{
+    display: grid;
+    grid-template-columns: 800px 800px;
+    grid-template-rows: 1fr;
+
+}
+
+.heading{
+    font-size: x-large;
+}
+
+.games{
+    display: grid;
+    row-gap: 20px;
+    grid-template-columns: 300px 300px 300px 300px 300px;
+    grid-template-rows: 1fr 1fr;
+}
+
+.games-images{
+    border-radius: 12px;
+}
