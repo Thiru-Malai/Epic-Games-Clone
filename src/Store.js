@@ -7,7 +7,7 @@ import React from "react";
 
 class Store extends React.Component {
   render() {
-    // return (
+    return (
       <>
         <div className="store-page">
           <div className="contents-container">
@@ -101,7 +101,7 @@ class Store extends React.Component {
           </div>
         </div>
       </>
-    // );
+    );
   }
 }
 
