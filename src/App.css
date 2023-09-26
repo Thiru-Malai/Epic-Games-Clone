@@ -1,7 +1,7 @@
 .App {
   display: block;
   text-align: center;
-  background-color: rgba(18,18,18,255);
+  background-color: rgba(18, 18, 18, 255);
   height: fit-content;
 }
 
@@ -38,4 +38,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.counter-heading {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.increment-button,
+.decrement-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 0 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.increment-button:hover,
+.decrement-button:hover {
+  background-color: #0056b3;
 }
