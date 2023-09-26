@@ -13,7 +13,10 @@
     "react-router-dom": "^6.15.0",
     "react-scripts": "5.0.1",
     "redux": "^4.2.1",
+<<<<<<< HEAD
     "redux-thunk": "^2.3.0",
+=======
+>>>>>>> 29c280fecfb69e5ae094623e54221af1bf5173d9
     "web-vitals": "^2.1.4"
   },
   "scripts": {
