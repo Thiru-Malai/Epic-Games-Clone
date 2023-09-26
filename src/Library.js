@@ -1,6 +1,18 @@
 import "./Store.css";
 import gta5 from "./GTA_5.jpg";
 import minecraft from "./minecraft.avif";
+import Wish from "./components/Wish"
+import GameList from "./GameList";
+import { createStore, applyMiddleware } from 'redux';
+import { Provider } from 'react-redux';
+import thunk from 'redux-thunk';
+import rootReducer from './components/reducers/';
+import rootReducer1 from './components/API/';
+
+
+const store = createStore(rootReducer, applyMiddleware(thunk));
+const store1 = createStore(rootReducer1, applyMiddleware(thunk));
+
 
 function Store() {
   return (
@@ -46,7 +58,16 @@ function Store() {
             />
           </div>
         </div>
+        <Provider store={store}>
+          <Wish></Wish>
+        </Provider>
+        <Provider store={store1}>
+          <div className="App">
+            <GameList />
+          </div>
+        </Provider>
       </div>
+
     </>
   );
 }
